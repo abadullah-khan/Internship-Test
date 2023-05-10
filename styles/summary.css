@@ -1,0 +1,33 @@
+.detailsPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid sandybrown;
+  width: 70vw;
+  height: 75vh;
+  margin: auto;
+}
+
+.detailsPage > .poster {
+  flex: 0.75;
+  height: 75vh;
+}
+.detailsPage > .poster > img {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+.detailsPage .details {
+  flex: 1;
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+.detailsPage .details h2 {
+  font-size: 3rem;
+}
+.detailsPage .details .subDetails p {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
