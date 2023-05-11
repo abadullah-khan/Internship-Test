@@ -1,0 +1,115 @@
+.detailsPage {
+  min-height: 100vh;
+  background-color: rgba(2, 6, 26, 0.884);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.detailsPage > .wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid salmon;
+  width: 70vw;
+}
+.detailsPage form {
+  background-color: rgba(240, 248, 255, 0.493);
+  padding: 10px;
+  border-radius: 10px;
+}
+.detailsPage form div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+  gap: 2px;
+}
+.detailsPage form div label {
+  color: white;
+  align-self: flex-start;
+}
+.detailsPage form div input {
+  background-color: aliceblue;
+  text-align: center;
+  font-size: 1.2rem;
+}
+.detailsPage form div button {
+  padding: 5px;
+  font-size: 1.2rem;
+  border-radius: 10px;
+}
+.detailsPage form div button:hover {
+  cursor: pointer;
+}
+.detailsPage > .wrapper > .poster {
+  flex: 0.75;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+}
+.detailsPage > .wrapper > .poster > img {
+  display: block;
+  height: 100%;
+}
+
+.detailsPage > .wrapper > .details {
+  border-left: 1px solid salmon;
+  flex: 1;
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+.detailsPage .wrapper .details h2 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.detailsPage .wrapper .details button {
+  align-self: flex-end;
+  text-align: center;
+
+  font-size: 1.8rem;
+  margin: 0 5px 5px 0;
+  padding: 5px;
+}
+.detailsPage .wrapper .details button:hover {
+  cursor: pointer;
+  border: 2px solid yellow;
+}
+.detailsPage .wrapper .details .subDetails {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+.detailsPage .wrapper .details .subDetails p {
+  font-size: 1.2rem;
+  color: rgba(241, 239, 239, 0.87);
+}
+.detailsPage .wrapper .details .subDetails p span {
+  font-size: 1.3rem;
+  color: aliceblue;
+}
+.detailsPage .wrapper .details .subDetails .summary p {
+  font-size: 1.3rem;
+  color: aliceblue;
+  text-indent: 80px;
+  font-weight: 300;
+}
+.detailsPage .submitMessage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+  font-size: 1.3rem;
+}
+.detailsPage .submitMessage p:first-of-type {
+  color: aliceblue;
+  font-size: 2rem;
+}

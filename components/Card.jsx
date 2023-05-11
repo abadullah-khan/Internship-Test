@@ -18,7 +18,7 @@ const Card = ({ data }) => {
           <div className="details">
             <h3>{name}</h3>
             <div className="overview">
-              <span>Premiered : {premiered}</span>
+              <span>Premiered : {premiered ? premiered : "null"}</span>
               <span>Rating : {rating.average ? rating.average : "null"}</span>
             </div>
           </div>

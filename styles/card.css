@@ -1,7 +1,7 @@
 .card {
   width: 18.5rem;
-  border: 1px solid yellow;
 }
+
 a {
   text-decoration: none;
 }
@@ -9,12 +9,16 @@ a {
   display: block;
   transition: all 0.3s ease;
   height: 100%;
+  border: 1px solid yellow;
 }
 .card > a > .imgContainer {
   height: 250px;
-  overflow: hidden;
   display: flex;
   justify-content: center;
+  transition: all 0.4s ease;
+}
+.card:hover > a > .imgContainer {
+  background-color: cadetblue;
 }
 .card:hover > a > .imgContainer > img {
   transform: scale(1.2);
